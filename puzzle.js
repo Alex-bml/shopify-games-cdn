@@ -7,13 +7,7 @@ var otherTile;
 var turns = 0;
 
 window.onload = function() {
-    //initialize the 5x5 board
-
-
-    alert("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF");
-
-
-    
+    //initialize the 5x5 board  
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns; c++) {
             //<img>
