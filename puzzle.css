@@ -3,8 +3,8 @@ body {
     text-align: center;
 }
 
-.h2 (
-    font-color: #FFDDDD;
+h2 (
+    color: #FFDDDD;
 )
 
 #board {
