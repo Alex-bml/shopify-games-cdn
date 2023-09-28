@@ -17,8 +17,12 @@
         <div id="pieces"></div>
 
         <script>
+            const message = JSON.stringify({
+                message: 'Hello from iframe',
+                date: Date.now(),
+});
             // Send `message` to the parent using the postMessage method on the window.parent reference.
-            window.parent.postMessage("mmeeesssaagggeee", "*");
+            window.parent.postMessage(message, "*");
         </script>
     </body>
 </html>
